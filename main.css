@@ -1,0 +1,218 @@
+body {
+    margin:0;
+}
+
+.flexbox-container {
+    background-color:whitesmoke;
+    border-radius: 15px;
+    margin:5px;
+    color:dimgray;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.header {
+    border-radius: 15px;
+    margin:2px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.banner-image {
+    width:250px;
+    padding-left: 20px;
+}
+
+.banner-text {
+    padding-left: 20px;
+    padding-right: 10px;
+    color:dimgray;
+    animation: blink 2s linear infinite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    padding-right:30px;
+    color:dimgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;;
+}
+
+.navbar {
+    background-color: wheat;
+    padding: 25px 15px;
+    border-radius: 15px;
+    margin:2px;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+
+.navbar a {
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+    color:dimgrey;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.coloana {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:rgb(103, 100, 100);
+    color:floralwhite;
+    border-radius: 15px;
+    margin:5px;
+    flex-basis: 200px;
+}
+
+.coloana  img{
+    max-width: 230px;
+}
+
+.coloana-main img{
+    max-width:400px;
+}
+
+#harta {
+    max-width:700px;
+    transition: transform .2s;
+}
+
+#harta:hover {
+    transform: translate(100px, 40%) scale(1.5);
+}
+  
+.coloana-main {
+    padding:10px;
+    margin:5px;
+    border-radius: 15px;;
+    text-align: center;   
+}
+
+.footer {
+    background-color:whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgba(18, 18, 18, 0.591); 
+    font-size: 20px;;
+}
+
+.rezervare {
+    max-width: 700px;   
+}
+
+#rezervare input {
+    background-color: white;
+    padding:10px;
+    margin:10px;
+    font-size: 25px;
+}
+
+input {
+    padding:3px;
+    margin:3px;
+    border-radius: 10px;
+    background-color:wheat;
+    font-weight: bold;
+    color:dimgray;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;   
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: rgb(31, 91, 175);
+  color: white;
+}
+.fa-youtube {
+    background: rgba(220, 3, 3, 0.918);
+    color: white;
+}
+.fa-instagram {
+    background: rgb(49, 102, 175);
+    color: white;
+}
+.fa-skype {
+    background: rgb(61, 172, 241);
+    color: white;
+}
+.fa-whatsapp {
+    color: rgb(12, 201, 12);
+}
+
+textarea {
+    width:100%;
+}
+
+
+@media screen and (max-width:750px) {
+    .navbar a {
+        display:flex;
+    }
+    #harta:hover {
+        transform: none;
+    }
+    .header {
+        display:block;
+    }
+    #rezervare input {
+        border-radius: 5px;
+        background-color: white;
+        padding:10px;
+        margin:10px;
+    }
+    .rezervare {
+        max-width: 350px;
+    }
+    table, td, tr {
+        display:block;
+        width:100%;
+    }
+  
+
+
+
+@media screen and (max-width:600px) {
+    #rezervare input {
+        border-radius: 5px;
+        background-color: white;
+        padding:5px;
+        margin:5px;
+    }
+    .rezervare {
+        max-width: 300px;
+    }
+    
+    
+}
+        
+    
+
+
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+    
+}

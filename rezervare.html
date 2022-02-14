@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Rezervare</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+
+        <div class="header">
+            <div>
+                <h1>Pizzerie pe Vatra</h1>
+            </div>
+            <div class="banner">
+                <img src="images/banner.jpg" class="banner-image" title="Pizzerie pe Vatra" alt="Poza Banner Pizzerie pe Vatra">
+            </div>
+            <div class="banner-text">
+                <h2>Livrare la domiciliu</h2>
+                <h2>0790790790</h2>
+                <h2>NON-STOP</h2>
+            </div>
+        </div>
+
+
+        <nav class="navbar">
+            <a href="index.html">Acasa</a>
+            <a href="meniu.html">Meniu</a>
+            <a href="rezervare.html">Rezervare</a>
+        </nav>
+
+
+        <div class="flexbox-container">
+
+            <form id="rezervare">
+                <table>
+                    <tr>
+                        <td><input type="text" placeholder="Nume" name="client" required></td><br>
+                        <td><input type="date" placeholder="Data" name="client" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Prenume" name="client" required></td>
+                        <td><input type="time" placeholder="Ora" name="client" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Adresa@email" name="client" required></td>
+                        <td><input type="number" placeholder="Numar persoane" name="client" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" placeholder="Numar de telefon" name="client" required></td>
+                        <td><textarea rows="5" cols="50" name="comment" form="rezervare" style="border-radius: 15px;;">Mesaj</textarea></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Rezervati" style="background-color: lightgrey;">
+            </form>
+            
+            <img src="images/rezervare.jpg" class="rezervare" title="Doriti sa rezervati?" alt="Imagine cu un chelner care va preia comanda">
+
+
+            
+        </div>
+
+        <div class="footer">
+            <input type="text" placeholder="Nume" name="name" required><br>
+            <input type="text" placeholder="Adresa@email" name="mail" required><br>
+            <label>
+                <input type="checkbox" checked="checked" name="subscribe">Newsletter
+            </label><br>
+            <input type="submit" value="Subscribe">
+        </div>
+
+    </body>
+
+</html>
