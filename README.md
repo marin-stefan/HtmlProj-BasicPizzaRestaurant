@@ -4,18 +4,18 @@
 ## Description
 
 This is a simple static app from the HTML/CSS course. It is a app for a pizza restaurant with delivery in Romanian language.
-The theme 
+ 
 
 
 ## Requirements were:
 
-* Start with a simple app with a html, script and css file.
+* Start with a simple app with a HTML and CSS file.
 
 * The app needs to be responsive.
 
 * The navbar menu needs to have home, menu and reservation.
 
-* All pages contain header with banner, the navbar menu, a content section and a footer.
+* All pages will contain header with banner, the navbar menu, a content section and a footer.
 
 * The homepage contains useful info for the restaurant, images, links to social media.
 
